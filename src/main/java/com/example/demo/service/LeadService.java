@@ -8,7 +8,7 @@ import com.example.demo.dto.LeadResponseDTO;
 public interface LeadService {
 
     LeadResponseDTO createLead(LeadRequestDTO request);
-
+    
     List<LeadResponseDTO> getAllLeads();
 
     LeadResponseDTO getLeadById(Long id);
